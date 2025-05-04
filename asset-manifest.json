@@ -1,20 +1,30 @@
 {
   "files": {
     "main.css": "/grassland-resort/static/css/main.b2c98752.css",
-    "main.js": "/grassland-resort/static/js/main.a74b06c0.js",
+    "main.js": "/grassland-resort/static/js/main.c7bcd3d2.js",
+    "static/media/sea-2.jpeg": "/grassland-resort/static/media/sea-2.ee542cf904e91386fd5b.jpeg",
     "static/media/carousel-2.jpg": "/grassland-resort/static/media/carousel-2.e67221a5c43968e9ef5d.jpg",
+    "static/media/sea-1.jpeg": "/grassland-resort/static/media/sea-1.45a88dec2b44d1fefc14.jpeg",
     "static/media/video.jpg": "/grassland-resort/static/media/video.5a8116233761d401c8b1.jpg",
+    "static/media/banner-1.jpeg": "/grassland-resort/static/media/banner-1.5898524c38c066323421.jpeg",
+    "static/media/gate.jpeg": "/grassland-resort/static/media/gate.54c9e6146a731b78f37f.jpeg",
+    "static/media/banner-2.jpeg": "/grassland-resort/static/media/banner-2.5edec3308589c717e205.jpeg",
+    "static/media/logo.png": "/grassland-resort/static/media/logo.9bfb247039602c2272da.png",
+    "static/media/room-3.jpg": "/grassland-resort/static/media/room-3.890ab1a8d25b31cd5d87.jpg",
+    "static/media/event.jpeg": "/grassland-resort/static/media/event.19f254223665699eb399.jpeg",
+    "static/media/main-banner.jpeg": "/grassland-resort/static/media/main-banner.e95b2c6188e0dd32a33a.jpeg",
     "static/media/side-main.jpeg": "/grassland-resort/static/media/side-main.1ef590582adaadee45db.jpeg",
+    "static/media/room-2.jpg": "/grassland-resort/static/media/room-2.ad8e1de432e73dae54f9.jpg",
     "static/media/slick.svg": "/grassland-resort/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/grassland-resort/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/grassland-resort/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/grassland-resort/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/grassland-resort/index.html",
     "main.b2c98752.css.map": "/grassland-resort/static/css/main.b2c98752.css.map",
-    "main.a74b06c0.js.map": "/grassland-resort/static/js/main.a74b06c0.js.map"
+    "main.c7bcd3d2.js.map": "/grassland-resort/static/js/main.c7bcd3d2.js.map"
   },
   "entrypoints": [
     "static/css/main.b2c98752.css",
-    "static/js/main.a74b06c0.js"
+    "static/js/main.c7bcd3d2.js"
   ]
 }
