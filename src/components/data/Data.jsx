@@ -1,3 +1,8 @@
+import mainBanner from "./../../assets/img/main-banner.jpeg";
+import banner1 from "./../../assets/img/banner-1.jpeg";
+import banner2 from "./../../assets/img/banner-2.jpeg";
+import room2 from "./../../assets/img/room-2.jpg";
+import room3 from "./../../assets/img/room-3.jpg";
 export const navList = [
   {
     id: 1,
@@ -67,21 +72,21 @@ export const socialIcons = [
 
 export const carouselData = [
   {
-    img: "../assets/img/main-banner.jpeg",
+    img: mainBanner,
     title: "Discover A Brand Luxurious Hotel",
     subtitle: "luxury living",
     // btn1: "Our Room",
     btn2: "Book Room",
   },
   {
-    img: "../assets/img/banner-1.jpeg",
+    img: banner1,
     title: "Discover A Brand Luxurious Hotel",
     subtitle: "luxury living",
     // btn1: "Our Room",
     btn2: "Book Room",
   },
   {
-    img: "../assets/img/banner-2.jpeg",
+    img: banner2,
     title: "Discover A Brand Luxurious Hotel",
     subtitle: "luxury living",
     // btn1: "Our Room",
@@ -289,7 +294,7 @@ export const roomItems = [
   // },
 
   {
-    img: "../assets/img/room-2.jpg",
+    img: room2,
     price: "5999/night",
     name: "Executive Suite",
     description:
@@ -297,7 +302,7 @@ export const roomItems = [
     darkbtn: "book now",
   },
   {
-    img: "../assets/img/room-3.jpg",
+    img:room3,
     price: "7499/night",
     name: "Presidential Suites",
     description:
@@ -310,12 +315,12 @@ export const roomItems = [
 export const facility = [
   {
     icon: <i class="fa fa-bed text-primary me-2"></i>,
-    quantity: 3,
+    // quantity: 3,
     facility: "bed",
   },
   {
     icon: <i class="fa fa-bath text-primary me-2"></i>,
-    quantity: 2,
+    // quantity: 2,
     facility: "bath",
   },
   {

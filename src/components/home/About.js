@@ -1,6 +1,10 @@
 import React from "react";
 import Heading from "../common/Heading";
 import { about } from "../data/Data";
+import event from "./../../assets/img/event.jpeg";
+import sea1 from "./../../assets/img/sea-1.jpeg";
+import sea2 from "./../../assets/img/sea-2.jpeg";
+import gate from "./../../assets/img/gate.jpeg";
 
 export default function About() {
   return (
@@ -44,7 +48,7 @@ export default function About() {
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.1s"
-                    src="/assets/img/gate.jpeg"
+                    src={gate}
                     style={{ marginTop: "25%" }}
                   />
                 </div>
@@ -52,21 +56,21 @@ export default function About() {
                   <img
                     className="img-fluid rounded w-100 wow zoomIn"
                     data-wow-delay="0.3s"
-                    src="/assets/img/event.jpeg"
+                    src={event}
                   />
                 </div>
                 <div className="col-6 text-end">
                   <img
                     className="img-fluid rounded w-70 wow zoomIn"
                     data-wow-delay="0.5s"
-                    src="/assets/img/sea-1.jpeg"
+                    src={sea1}
                   />
                 </div>
                 <div className="col-6 text-start">
                   <img
                     className="img-fluid rounded w-95 wow zoomIn"
                     data-wow-delay="0.7s"
-                    src="/assets/img/sea-2.jpeg"
+                    src={sea2}
                   />
                 </div>
               </div>
