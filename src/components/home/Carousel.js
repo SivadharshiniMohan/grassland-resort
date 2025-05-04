@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { carouselData } from "../data/Data";
+import { initiateUpiPayment } from "../common/bookNow";
 
 export default function Carousel() {
   const sliderRef = useRef(null);
@@ -54,7 +55,7 @@ export default function Carousel() {
                         {val.btn1}
                       </a> */}
                       <a
-                        href=""
+                        onClick={initiateUpiPayment(1)}
                         className="btn btn-light py-md-3 px-md-5 animated slideInRight"
                       >
                         {val.btn2}

@@ -1,6 +1,5 @@
 import React from "react";
 import { socialIcons } from "../data/Data";
-import { Link } from "react-router-dom";
 
 export default function SocialIcons() {
   return (
@@ -9,9 +8,9 @@ export default function SocialIcons() {
         <div className="d-inline-flex align-items-center py-2">
           {socialIcons.map((val, index) => (
             <div key={index}>
-              <Link className="me-3" href="">
+              {/* <Link className="me-3" href=""> */}
                 {val.icon}
-              </Link>
+              {/* </Link> */}
             </div>
           ))}
         </div>

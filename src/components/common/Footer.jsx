@@ -1,11 +1,9 @@
-import { Link } from "react-router-dom";
 import { footerContact, footerItem, socialIcons } from "../data/Data";
 import Newsletter from "../home/Newsletter";
 
 export default function Footer() {
   return (
     <>
-  
       <div
         className="container-fluid bg-dark text-light footer wow fadeIn"
         data-wow-delay="0.1s"

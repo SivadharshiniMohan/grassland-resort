@@ -38,9 +38,9 @@ export default function About() {
                   </div>
                 ))}
               </div>
-              <a className="btn btn-primary py-3 px-5 mt-2" href="">
+              {/* <a className="btn btn-primary py-3 px-5 mt-2" href="">
                 Explore More
-              </a>
+              </a> */}
             </div>
             <div className="col-lg-6">
               <div className="row g-3">

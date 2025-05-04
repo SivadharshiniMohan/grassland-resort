@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { navList } from "../data/Data";
 import SocialIcons from "./SocialIcons";
 import logo from "./../../assets/img/logo.png";
@@ -23,14 +22,14 @@ export default function Header() {
       <div className="container-fluid bg-dark px-0">
         <div className="row gx-0">
           <div className="col-lg-3 bg-dark d-none d-lg-block">
-            <Link
-              to="/"
+            {/* <Link
+              // to="/"
               className="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center"
-            >
+            > */}
               <img src={logo} alt="logo" height={"50rem"} />
-            </Link>
+            {/* </Link> */}
           </div>
-          <div className="col-lg-9">
+          {/* <div className="col-lg-9">
             <nav className="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
               <Link to="/" className="navbar-brand d-block d-lg-none">
               <img src={logo} alt="logo" height={"50rem"} />
@@ -84,7 +83,7 @@ export default function Header() {
                 <SocialIcons />
               </div>
             </nav>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
