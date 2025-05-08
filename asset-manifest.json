@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/grassland-resort/static/css/main.b2c98752.css",
-    "main.js": "/grassland-resort/static/js/main.eb9aa0e2.js",
+    "main.js": "/grassland-resort/static/js/main.8c5811c1.js",
     "static/media/sea-2.jpeg": "/grassland-resort/static/media/sea-2.ee542cf904e91386fd5b.jpeg",
     "static/media/carousel-2.jpg": "/grassland-resort/static/media/carousel-2.e67221a5c43968e9ef5d.jpg",
     "static/media/sea-1.jpeg": "/grassland-resort/static/media/sea-1.45a88dec2b44d1fefc14.jpeg",
@@ -21,10 +21,10 @@
     "static/media/slick.woff": "/grassland-resort/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/grassland-resort/index.html",
     "main.b2c98752.css.map": "/grassland-resort/static/css/main.b2c98752.css.map",
-    "main.eb9aa0e2.js.map": "/grassland-resort/static/js/main.eb9aa0e2.js.map"
+    "main.8c5811c1.js.map": "/grassland-resort/static/js/main.8c5811c1.js.map"
   },
   "entrypoints": [
     "static/css/main.b2c98752.css",
-    "static/js/main.eb9aa0e2.js"
+    "static/js/main.8c5811c1.js"
   ]
 }
