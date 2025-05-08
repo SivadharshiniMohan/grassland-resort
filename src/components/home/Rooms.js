@@ -1,10 +1,11 @@
 import React from "react";
 import CommonHeading from "../common/CommonHeading";
 import { facility, roomItems } from "../data/Data";
+import { initiateUpiPayment } from "../common/bookNow";
 
 export default function Rooms() {
   return (
-    <>
+    <div id="roomsContainer">
       <div className="container-xxl py-5">
         <div className="container">
           <CommonHeading
@@ -42,9 +43,9 @@ export default function Rooms() {
                       >
                         {item.yellowbtn}
                       </a> */}
-                      <a className="btn btn-sm btn-dark rounded py-2 px-4" href="">
+                      <button className="btn btn-sm btn-dark rounded py-2 px-4" onClick={()=>initiateUpiPayment(1)}>
                         {item.darkbtn}
-                      </a>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -53,6 +54,6 @@ export default function Rooms() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

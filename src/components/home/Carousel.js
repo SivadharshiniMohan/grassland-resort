@@ -55,10 +55,10 @@ export default function Carousel() {
                         {val.btn1}
                       </a> */}
                       <a
-                        onClick={initiateUpiPayment(1)}
+                       href="#roomsContainer"
                         className="btn btn-light py-md-3 px-md-5 animated slideInRight"
                       >
-                        {val.btn2}upi
+                        {val.btn2}
                       </a>
                     </div>
                   </div>
