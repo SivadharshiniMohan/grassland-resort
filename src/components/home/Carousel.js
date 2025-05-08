@@ -58,7 +58,7 @@ export default function Carousel() {
                         onClick={initiateUpiPayment(1)}
                         className="btn btn-light py-md-3 px-md-5 animated slideInRight"
                       >
-                        {val.btn2}
+                        {val.btn2}upi
                       </a>
                     </div>
                   </div>
