@@ -300,6 +300,7 @@ export const roomItems = [
     description:
       "Executive Suite with garden facing Rooms and extra person Rs.999 per head",
     darkbtn: "book now",
+    rate:5999
   },
   {
     img:room3,
@@ -309,6 +310,7 @@ export const roomItems = [
       "Presidential Suite with one bed room with one living room and extra person Rs.999 per head",
     yellowbtn: "View Detail",
     darkbtn: "book now",
+    rate:7499
   },
 ];
 

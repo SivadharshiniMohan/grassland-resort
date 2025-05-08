@@ -43,9 +43,9 @@ export default function Rooms() {
                       >
                         {item.yellowbtn}
                       </a> */}
-                      <button className="btn btn-sm btn-dark rounded py-2 px-4" onClick={()=>initiateUpiPayment(1)}>
+                      {/* <button className="btn btn-sm btn-dark rounded py-2 px-4" onClick={()=>initiateUpiPayment(item.rate)}>
                         {item.darkbtn}
-                      </button>
+                      </button> */}
                     </div>
                   </div>
                 </div>

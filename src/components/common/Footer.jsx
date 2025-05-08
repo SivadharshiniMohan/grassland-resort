@@ -5,7 +5,9 @@ export default function Footer() {
   return (
     <>
       <div
-        className="container-fluid bg-dark text-light footer wow fadeIn"
+        className="container-fluid bg-dark text-light footer wow fadeIn "
+
+     
         data-wow-delay="0.1s"
       >
         <div className="container pb-5">
@@ -16,7 +18,7 @@ export default function Footer() {
                 Contact
               </h6>
               {footerContact.map((val, index) => (
-                <p className="mb-2" key={index}>
+                <p className="mb-2 d-flex" key={index} style={{alignItems:"center"}}>
                   {val.icon} {val.name}
                 </p>
               ))}
@@ -30,7 +32,8 @@ export default function Footer() {
             </div>
             
           </div>
-        </div>
+          
+        </div>        
       </div>
     </>
   );
