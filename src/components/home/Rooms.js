@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import CommonHeading from "../common/CommonHeading";
-import { facility, roomItems } from "../data/Data";
+import AmenitiesList from "../common/AmenitiesList";
+import { executiveRoomFacilities, presidentialRoomFacilities, roomItems } from "../data/Data";
 import { initiateUpiPayment } from "../common/bookNow";
+import FacilitiesSection from "./FacilitiesSection";
 
 export default function Rooms() {
   return (
@@ -13,9 +15,9 @@ export default function Rooms() {
             title="Rooms"
             subtitle="Explore Our"
           />
-          <div className="row g-4">
+          <div className="row g-6 m-10">
             {roomItems.map((item, key) => (
-              <div className="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div className="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s" key={key}>
                 <div className="room-item shadow rounded overflow-hidden">
                   <div className="position-relative">
                     <img className="img-fluid" src={item.img} alt="img" />
@@ -27,16 +29,24 @@ export default function Rooms() {
                     <div className="d-flex justify-content-between mb-3">
                       <h5 className="mb-0">{item.name}</h5>
                     </div>
-                    <div className="d-flex mb-3">
-                      {facility.map((item, index) => (
-                        <small className="border-end me-3 pe-3">
-                          {item.icon}
-                          {item.quantity} {item.facility}
+                    <div className="d-flex flex-wrap mb-3 gap-3">
+                      {(item.amenitiesKey === "presidential" ? presidentialRoomFacilities : executiveRoomFacilities).map((facility, index) => (
+                        <small className="border-end me-3 pe-3" key={index}>
+                          {facility.icon}
+                          {facility.facility}
                         </small>
                       ))}
                     </div>
-                    <p className="text-body mb-3">{item.description}</p>
-                    <div className="d-flex justify-content-between">
+                    
+                    <p className="text-body mb-3">
+                      {item.fullDescription}
+                    </p>
+
+                    {item.amenitiesKey && (
+                      <AmenitiesList amenitiesKey={item.amenitiesKey} />
+                    )}
+
+                    <div className="d-flex justify-content-between mt-4">
                       {/* <a
                         className="btn btn-sm btn-primary rounded py-2 px-4"
                         href=""
@@ -54,6 +64,7 @@ export default function Rooms() {
           </div>
         </div>
       </div>
+    <FacilitiesSection />
     </div>
   );
 }

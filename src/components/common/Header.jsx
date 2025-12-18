@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { navList } from "../data/Data";
-import SocialIcons from "./SocialIcons";
 import logo from "./../../assets/img/logo.png";
 
 
-export default function Header() {
+export default function Header({ onNavigate }) {
   const [navbarCollapse, setNavbarCollapse] = useState(false);
+  const [activePage, setActivePage] = useState("home");
 
   const [activeDropdown, setActiveDropdown] = useState(null);
 
@@ -17,23 +17,45 @@ export default function Header() {
     setActiveDropdown(null);
   };
 
+  const handleNavClick = (page) => {
+    setActivePage(page);
+    if (onNavigate) {
+      onNavigate(page);
+    }
+    setNavbarCollapse(false);
+  };
+
+  const getMenuItemStyle = (page) => ({
+    border: "none",
+    background: "transparent",
+    cursor: "pointer",
+    color: activePage === page ? "#2ecc71" : "inherit",
+    fontWeight: activePage === page ? "600" : "normal",
+    transition: "color 0.3s ease"
+  });
+
   return (
     <>
       <div className="container-fluid bg-dark px-0">
         <div className="row gx-0">
           <div className="col-lg-3 bg-dark d-none d-lg-block">
-            {/* <Link
-              // to="/"
+            <button
+              onClick={() => handleNavClick("home")}
               className="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center"
-            > */}
+              style={{ border: "none", background: "transparent", cursor: "pointer" }}
+            >
               <img src={logo} alt="logo" height={"50rem"} />
-            {/* </Link> */}
+            </button>
           </div>
-          {/* <div className="col-lg-9">
+          <div className="col-lg-9">
             <nav className="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
-              <Link to="/" className="navbar-brand d-block d-lg-none">
-              <img src={logo} alt="logo" height={"50rem"} />
-              </Link>
+              <button
+                onClick={() => handleNavClick("home")}
+                className="navbar-brand d-block d-lg-none"
+                style={{ border: "none", background: "transparent", cursor: "pointer" }}
+              >
+                <img src={logo} alt="logo" height={"50rem"} />
+              </button>
               <button
                 type="button"
                 className="navbar-toggler"
@@ -49,41 +71,38 @@ export default function Header() {
                 }
               >
                 <div className="navbar-nav mr-auto py-0">
-                  {navList.map((item, index) => (
-                    <div key={index}>
-                      {item.subItems ? (
-                        <div
-                          className="nav-item dropdown"
-                          onMouseEnter={() => handleMouseEnter(item.id)}
-                          onMouseLeave={handleMouseLeave}
-                        >
-                          <Link className="nav-link dropdown-toggle">
-                            {item.text}
-                          </Link>
-                          <div
-                            className={`dropdown-menu rounded-0 m-0 ${
-                              activeDropdown === item.id ? "show" : ""
-                            }`}
-                          >
-                            {item.subItems.map((sub) => (
-                              <Link to={sub.path} className="dropdown-item">
-                                {sub.text}
-                              </Link>
-                            ))}
-                          </div>
-                        </div>
-                      ) : (
-                        <Link to={item.path} className="nav-item nav-link">
-                          {item.text}
-                        </Link>
-                      )}
-                    </div>
-                  ))}
+                  <button
+                    onClick={() => handleNavClick("home")}
+                    className="nav-item nav-link"
+                    style={getMenuItemStyle("home")}
+                  >
+                    Home
+                  </button>
+                  <button
+                    onClick={() => handleNavClick("about")}
+                    className="nav-item nav-link"
+                    style={getMenuItemStyle("about")}
+                  >
+                    About Us
+                  </button>
+                  <button
+                    onClick={() => handleNavClick("rooms")}
+                    className="nav-item nav-link"
+                    style={getMenuItemStyle("rooms")}
+                  >
+                    Rooms
+                  </button>
+                  <button
+                    onClick={() => handleNavClick("contact")}
+                    className="nav-item nav-link"
+                    style={getMenuItemStyle("contact")}
+                  >
+                    Contact Us
+                  </button>
                 </div>
-                <SocialIcons />
               </div>
             </nav>
-          </div> */}
+          </div>
         </div>
       </div>
     </>

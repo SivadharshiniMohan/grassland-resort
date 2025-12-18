@@ -111,36 +111,97 @@ export const about = [
 export const services = [
   {
     icon: <i class="fa fa-hotel fa-2x text-primary"></i>,
-    name: "Rooms",
-    discription: "Room Service, Landscaped garden, In-house laundry and Private Car and Bus parking",
+    name: "Luxurious Rooms",
+    discription: "Luxurious Executive Rooms with garden-facing views, Family Cottage ideal for small families or groups, Presidential Suites featuring a separate bedroom & living area, Bathtub / Jacuzzi in all Presidential Suites"
   },
   {
     icon: <i class="fa fa-utensils fa-2x text-primary"></i>,
-    name: "Food",
-    discription: "Multi cuisine Restaurant",
+    name: "Dining & Leisure",
+    discription: "Multi-cuisine restaurant, swimming pool for families, landscaped gardens, and kids play area for complete relaxation.",
   },
   {
-    icon: <i class="fa fa-spa fa-2x text-primary"></i>,
-    name: "Personal",
-    discription: "Board room for personal meeting",
+    icon: <i class="fa fa-person-booth fa-2x text-primary"></i>,
+    name: "Conference Hall",
+    discription: "Professional facilities with theatre, U-shape, and cluster style seating for up to 150 guests with audio-visual support.",
   },
+  {
+    icon: <i class="fa fa-ring fa-2x text-primary"></i>,
+    name: "Events & Celebrations",
+    discription: "Beautiful open lawn for up to 1000 guests, perfect for weddings, receptions, and cultural events with scenic backdrop.",
+  },
+  {
+    icon: <i class="fa fa-concierge-bell fa-2x text-primary"></i>,
+    name: "Guest Services",
+    discription: "In-house laundry, huge parking, airport pick-up/drop, sightseeing tours, and drivers accommodation on request.",
+  },
+  {
+    icon: <i class="fa fa-briefcase fa-2x text-primary"></i>,
+    name: "Business Facilities",
+    discription: "Banquet hall, board room, work desks, meeting arrangements, and complete conference support for corporate events.",
+  },
+];
 
+export const facilities = [
   {
-    icon: <i class="fa fa-swimmer fa-2x text-primary"></i>,
-    name: "Sports & Gaming",
-    discription: "Swimming Pool, Kids Play Area",
+    category: "Accommodation",
+    icon: <i class="fa fa-bed fa-2x text-primary"></i>,
+    items: [
+      { icon: <i class="fa fa-home text-primary me-2"></i>, name: "Luxurious Executive Rooms with garden-facing views" },
+      { icon: <i class="fa fa-house text-primary me-2"></i>, name: "Family Cottage ideal for small families or groups" },
+      { icon: <i class="fa fa-crown text-primary me-2"></i>, name: "Presidential Suites featuring a separate bedroom & living area" },
+      { icon: <i class="fa fa-bath text-primary me-2"></i>, name: "Bathtub / Jacuzzi in all Presidential Suites" },
+      { icon: <i class="fa fa-tv text-primary me-2"></i>, name: "LCD TV with satellite channels in all rooms" },
+      { icon: <i class="fa fa-coffee text-primary me-2"></i>, name: "Tea/Coffee Maker in every room" },
+      { icon: <i class="fa fa-ice-cream text-primary me-2"></i>, name: "Mini Fridge in all Presidential Suites" },
+      { icon: <i class="fa fa-sofa text-primary me-2"></i>, name: "Comfortable furnishing and modern décor" },
+      { icon: <i class="fa fa-wind text-primary me-2"></i>, name: "Air Conditioning" },
+      { icon: <i class="fa fa-droplet text-primary me-2"></i>, name: "Complimentary drinking water (replenished daily)" },
+      { icon: <i class="fa fa-laptop text-primary me-2"></i>, name: "Work desk, wardrobe, and essential amenities" },
+      { icon: <i class="fa fa-bell text-primary me-2"></i>, name: "Room Service (7:00 AM to 11:00 PM)" },
+    ]
   },
   {
-    icon: <i class="fa fa-glass-cheers fa-2x text-primary"></i>,
-    name: "Event & Party",
-    discription: "Banquet hall, Special Arrangement for Conference with all modern amenities and Marriage Event",
+    category: "Dining & Leisure",
+    icon: <i class="fa fa-utensils fa-2x text-primary"></i>,
+    items: [
+      { icon: <i class="fa fa-utensils text-primary me-2"></i>, name: "Multi-Cuisine Restaurant offering regional, Indian & international dishes" },
+      { icon: <i class="fa fa-water text-primary me-2"></i>, name: "Swimming Pool for adults and families to relax and enjoy" },
+      { icon: <i class="fa fa-leaf text-primary me-2"></i>, name: "Landscaped Garden for peaceful outdoor sitting" },
+      { icon: <i class="fa fa-child text-primary me-2"></i>, name: "Kids Play Area for children to enjoy safely" },
+    ]
   },
-
-  // {
-  //   icon: <i class="fa fa-dumbbell fa-2x text-primary"></i>,
-  //   name: "GYM & Yoga",
-  //   discription: "Contrary to popular belief, ipsum is not simply random.",
-  // },
+  {
+    category: "Events & Meetings",
+    icon: <i class="fa fa-calendar fa-2x text-primary"></i>,
+    items: [
+      { icon: <i class="fa fa-champagne-glasses text-primary me-2"></i>, name: "Banquet Hall for dinners, gatherings & celebrations" },
+      { icon: <i class="fa fa-handshake text-primary me-2"></i>, name: "Board Room for small meetings & discussions" },
+      { icon: <i class="fa fa-person-booth text-primary me-2"></i>, name: "Special Arrangements for Conferences & Marriage Events" },
+      { icon: <i class="fa fa-theater-masks text-primary me-2"></i>, name: "Stage & décor support" },
+      { icon: <i class="fa fa-utensils text-primary me-2"></i>, name: "Catering & seating arrangements" },
+      { icon: <i class="fa fa-microphone text-primary me-2"></i>, name: "Modern audio-visual facilities" },
+    ]
+  },
+  {
+    category: "Outdoor Event Space",
+    icon: <i class="fa fa-tree fa-2x text-primary"></i>,
+    items: [
+      { icon: <i class="fa fa-ring text-primary me-2"></i>, name: "Large Open Lawn suitable for weddings, receptions & social events" },
+      { icon: <i class="fa fa-users text-primary me-2"></i>, name: "Capacity to host up to 1000 guests" },
+    ]
+  },
+  {
+    category: "Guest Services",
+    icon: <i class="fa fa-concierge-bell fa-2x text-primary"></i>,
+    items: [
+      { icon: <i class="fa fa-shirt text-primary me-2"></i>, name: "In-house Laundry" },
+      { icon: <i class="fa fa-square-parking text-primary me-2"></i>, name: "Huge Parking Space for cars & buses" },
+      { icon: <i class="fa fa-person text-primary me-2"></i>, name: "Drivers' Accommodation (at extra cost)" },
+      { icon: <i class="fa fa-plane text-primary me-2"></i>, name: "Airport / Railway / Bus Pick-up & Drop (extra cost)" },
+      { icon: <i class="fa fa-binoculars text-primary me-2"></i>, name: "Sightseeing Tours on Request (extra cost)" },
+      { icon: <i class="fa fa-compass text-primary me-2"></i>, name: "Travel guidance & support" },
+    ]
+  },
 ];
 export const team = [
   {
@@ -276,57 +337,138 @@ export const testimonial = [
 ];
 
 export const roomItems = [
-  // {
-  //   img: "../assets/img/room-1.jpg",
-  //   price: "$110/night",
-  //   name: "Junior Suit",
-  //   star: [
-  //     <small class="fa fa-star text-primary"></small>,
-  //     <small class="fa fa-star text-primary"></small>,
-  //     <small class="fa fa-star text-primary"></small>,
-  //     <small class="fa fa-star text-primary"></small>,
-  //     <small class="fa fa-star text-primary"></small>,
-  //   ],
-  //   description:
-  //     "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
-  //   yellowbtn: "View Detail",
-  //   darkbtn: "book now",
-  // },
-
   {
     img: room2,
-    price: "5999/night",
+    price: "₹5,999/night",
     name: "Executive Suite",
-    description:
-      "Executive Suite with garden facing Rooms and extra person Rs.999 per head",
+    shortDescription: "Our Executive Rooms are thoughtfully designed to offer comfort, elegance, and relaxation during your stay at Grasslands Resort.",
+    fullDescription: "Our Executive Rooms are thoughtfully designed to offer comfort, elegance, and relaxation during your stay at Grasslands Resort. Each room opens to soothing garden views, allowing you to enjoy the calm and refreshing atmosphere of nature right from your window. The interiors feature soft lighting, warm textures, and modern furnishings that provide a peaceful environment whether you are traveling for leisure or business. With a comfortable king-size bed, a cozy sitting area, and essential in-room conveniences, our Executive Rooms ensure a pleasant and memorable stay. Perfect for couples, families, and corporate travellers seeking comfort and value.",
+    amenitiesKey: "executive",
     darkbtn: "book now",
-    rate:5999
+    rate: 5999
   },
   {
-    img:room3,
-    price: "7499/night",
+    img: room3,
+    price: "₹7,499/night",
     name: "Presidential Suites",
-    description:
-      "Presidential Suite with one bed room with one living room and extra person Rs.999 per head",
-    yellowbtn: "View Detail",
+    shortDescription: "Experience elevated comfort and elegant living in our Presidential Suite, designed for guests who seek extra space, privacy, and luxury.",
+    fullDescription: "Experience elevated comfort and elegant living in our Presidential Suite, designed for guests who seek extra space, privacy, and luxury. The suite features a separate bedroom and living area, offering the perfect blend of relaxation and convenience. Enjoy serene views and a warm, inviting ambiance that makes every moment of your stay delightful. The bedroom is furnished with a plush king-size bed complete with premium bedding to ensure restful sleep, while the spacious living room provides a cozy setting for lounging, reading, or hosting a private conversation. The well-appointed bathroom features a Jacuzzi/Bathtub with hot and cold running water—ideal for unwinding after a day of travel or wildlife exploration. Perfect for honeymooners, families, VIP guests, or those simply seeking a more indulgent stay.",
+    amenitiesKey: "presidential",
     darkbtn: "book now",
-    rate:7499
-  },
+    rate: 7499
+  }
 ];
 
 export const facility = [
   {
     icon: <i class="fa fa-bed text-primary me-2"></i>,
-    // quantity: 3,
     facility: "bed",
   },
   {
     icon: <i class="fa fa-bath text-primary me-2"></i>,
-    // quantity: 2,
     facility: "bath",
   },
   {
     icon: <i class="fa fa-wifi text-primary me-2"></i>,
     facility: "Wifi",
   },
+];
+
+export const executiveRoomFacilities = [
+  {
+    icon: <i className="fa fa-bed text-primary me-2"></i>,
+    facility: "King-size Bed",
+  },
+  {
+    icon: <i className="fa fa-wind text-primary me-2"></i>,
+    facility: "Air Conditioning",
+  },
+  {
+    icon: <i className="fa fa-wifi text-primary me-2"></i>,
+    facility: "Wi-Fi",
+  },
+  {
+    icon: <i className="fa fa-tv text-primary me-2"></i>,
+    facility: "Flat-screen TV",
+  },
+  {
+    icon: <i className="fa fa-coffee text-primary me-2"></i>,
+    facility: "Tea/Coffee Maker",
+  },
+  {
+    icon: <i className="fa fa-chair text-primary me-2"></i>,
+    facility: "Sofa/Seating",
+  },
+];
+
+export const presidentialRoomFacilities = [
+  {
+    icon: <i className="fa fa-bed text-primary me-2"></i>,
+    facility: "King-size Bed",
+  },
+  {
+    icon: <i className="fa fa-home text-primary me-2"></i>,
+    facility: "Living Area",
+  },
+  {
+    icon: <i className="fa fa-wind text-primary me-2"></i>,
+    facility: "Air Conditioning",
+  },
+  {
+    icon: <i className="fa fa-bath text-primary me-2"></i>,
+    facility: "Jacuzzi/Bathtub",
+  },
+  {
+    icon: <i className="fa fa-wifi text-primary me-2"></i>,
+    facility: "Wi-Fi",
+  },
+  {
+    icon: <i className="fa fa-tv text-primary me-2"></i>,
+    facility: "Flat-screen TV",
+  },
+  {
+    icon: <i className="fa fa-wine-glass text-primary me-2"></i>,
+    facility: "Mini-Bar/Fridge",
+  },
+  {
+    icon: <i className="fa fa-coffee text-primary me-2"></i>,
+    facility: "Tea/Coffee Maker",
+  },
+];
+
+export const executiveAmenities = [
+  "King-size bed with high-quality mattress and warm duvets/blankets",
+  "Air conditioning",
+  "Chair/sofa with coffee/side table",
+  "Complimentary toiletries: soap, shampoo, conditioner, body lotion & shower cap",
+  "Soft fresh towels",
+  "Hair dryer available upon request",
+  "Soft slippers",
+  "Electric kettle for tea/coffee preparation",
+  "Complimentary coffee sachets, tea bags, creamer & sugar",
+  "One complimentary packaged drinking water bottle (replenished daily)",
+  "Wi-Fi internet access",
+  "Flat-screen TV with satellite channels",
+  "Wardrobe for storage",
+  "Iron available upon request",
+  "Work desk with chair — suitable for laptop use and business work",
+];
+
+export const presidentialAmenities = [
+  "King-size bed with high-quality mattress, duvets and blankets",
+  "Separate living area with sofa, chair, and centre/side table",
+  "Air conditioning",
+  "Complimentary premium toiletries (soap, shampoo, conditioner, body lotion)",
+  "Soft fresh towels",
+  "Jacuzzi/Bathtub with hot and cold running water",
+  "Hair dryer available upon request",
+  "Soft slippers",
+  "Electric kettle for preparing tea or coffee",
+  "Complimentary coffee sachets, tea bags, creamer, and sugar",
+  "Complimentary packaged drinking water (replenished daily)",
+  "Mini-Bar/Fridge stocked with beverages and snacks (chargeable)",
+  "Wi-Fi internet access",
+  "Flat-screen TV with satellite channels",
+  "Wardrobe for storage",
+  "Iron available upon request",
 ];
