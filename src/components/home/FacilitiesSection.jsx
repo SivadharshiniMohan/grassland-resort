@@ -40,14 +40,7 @@ export default function FacilitiesSection() {
                       </li>
                     ))}
                   </ul>
-                  <button
-                    onClick={() => toggleCategory(index)}
-                    className="btn btn-sm btn-outline-primary mt-3"
-                    style={{ transition: "all 0.3s ease" }}
-                  >
-                    <i className={`fa fa-chevron-${expandedCategory === index ? "up" : "down"} me-2`}></i>
-                    {expandedCategory === index ? "Show Less" : "View Details"}
-                  </button>
+                 
                 </div>
               </div>
             </div>
