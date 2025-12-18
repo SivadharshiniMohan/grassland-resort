@@ -12,7 +12,6 @@ export default function Home() {
     <>
       <Carousel />
       <About />
-      <FacilitiesSection />
        {/*<Rooms />
       <Services />
       <Sliders /> */}
