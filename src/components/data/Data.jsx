@@ -96,12 +96,12 @@ export const carouselData = [
 ];
 export const about = [
   {
-    icon: <i class="fa fa-hotel fa-2x text-primary mb-2"></i>,
+    icon: <i className="fa fa-hotel fa-2x text-primary mb-2"></i>,
     text: "Rooms",
     count: "21",
   },
   {
-    icon: <i class="fa fa-users fa-2x text-primary mb-2"></i>,
+    icon: <i className="fa fa-users fa-2x text-primary mb-2"></i>,
     text: "Staffs",
     count: "2",
   },
@@ -110,32 +110,32 @@ export const about = [
 
 export const services = [
   {
-    icon: <i class="fa fa-hotel fa-2x text-primary"></i>,
+    icon: <i className="fa fa-hotel fa-2x text-primary"></i>,
     name: "Luxurious Rooms",
     discription: "Luxurious Executive Rooms with garden-facing views, Family Cottage ideal for small families or groups, Presidential Suites featuring a separate bedroom & living area, Bathtub / Jacuzzi in all Presidential Suites"
   },
   {
-    icon: <i class="fa fa-utensils fa-2x text-primary"></i>,
+    icon: <i className="fa fa-utensils fa-2x text-primary"></i>,
     name: "Dining & Leisure",
     discription: "Multi-cuisine restaurant, swimming pool for families, landscaped gardens, and kids play area for complete relaxation.",
   },
   {
-    icon: <i class="fa fa-person-booth fa-2x text-primary"></i>,
+    icon: <i className="fa fa-person-booth fa-2x text-primary"></i>,
     name: "Conference Hall",
     discription: "Professional facilities with theatre, U-shape, and cluster style seating for up to 150 guests with audio-visual support.",
   },
   {
-    icon: <i class="fa fa-ring fa-2x text-primary"></i>,
+    icon: <i className="fa fa-ring fa-2x text-primary"></i>,
     name: "Events & Celebrations",
     discription: "Beautiful open lawn for up to 1000 guests, perfect for weddings, receptions, and cultural events with scenic backdrop.",
   },
   {
-    icon: <i class="fa fa-concierge-bell fa-2x text-primary"></i>,
+    icon: <i className="fa fa-concierge-bell fa-2x text-primary"></i>,
     name: "Guest Services",
     discription: "In-house laundry, huge parking, airport pick-up/drop, sightseeing tours, and drivers accommodation on request.",
   },
   {
-    icon: <i class="fa fa-briefcase fa-2x text-primary"></i>,
+    icon: <i className="fa fa-briefcase fa-2x text-primary"></i>,
     name: "Business Facilities",
     discription: "Banquet hall, board room, work desks, meeting arrangements, and complete conference support for corporate events.",
   },
@@ -144,62 +144,62 @@ export const services = [
 export const facilities = [
   {
     category: "Accommodation",
-    icon: <i class="fa fa-bed fa-2x text-primary"></i>,
+    icon: <i className="fa fa-bed fa-2x text-primary"></i>,
     items: [
-      { icon: <i class="fa fa-home text-primary me-2"></i>, name: "Luxurious Executive Rooms with garden-facing views" },
-      { icon: <i class="fa fa-house text-primary me-2"></i>, name: "Family Cottage ideal for small families or groups" },
-      { icon: <i class="fa fa-crown text-primary me-2"></i>, name: "Presidential Suites featuring a separate bedroom & living area" },
-      { icon: <i class="fa fa-bath text-primary me-2"></i>, name: "Bathtub / Jacuzzi in all Presidential Suites" },
-      { icon: <i class="fa fa-tv text-primary me-2"></i>, name: "LCD TV with satellite channels in all rooms" },
-      { icon: <i class="fa fa-coffee text-primary me-2"></i>, name: "Tea/Coffee Maker in every room" },
-      { icon: <i class="fa fa-ice-cream text-primary me-2"></i>, name: "Mini Fridge in all Presidential Suites" },
-      { icon: <i class="fa fa-sofa text-primary me-2"></i>, name: "Comfortable furnishing and modern décor" },
-      { icon: <i class="fa fa-wind text-primary me-2"></i>, name: "Air Conditioning" },
-      { icon: <i class="fa fa-droplet text-primary me-2"></i>, name: "Complimentary drinking water (replenished daily)" },
-      { icon: <i class="fa fa-laptop text-primary me-2"></i>, name: "Work desk, wardrobe, and essential amenities" },
-      { icon: <i class="fa fa-bell text-primary me-2"></i>, name: "Room Service (7:00 AM to 11:00 PM)" },
+      { icon: <i className="fa fa-home text-primary me-2"></i>, name: "Luxurious Executive Rooms with garden-facing views" },
+      { icon: <i className="fa fa-house text-primary me-2"></i>, name: "Family Cottage ideal for small families or groups" },
+      { icon: <i className="fa fa-crown text-primary me-2"></i>, name: "Presidential Suites featuring a separate bedroom & living area" },
+      { icon: <i className="fa fa-bath text-primary me-2"></i>, name: "Bathtub / Jacuzzi in all Presidential Suites" },
+      { icon: <i className="fa fa-tv text-primary me-2"></i>, name: "LCD TV with satellite channels in all rooms" },
+      { icon: <i className="fa fa-coffee text-primary me-2"></i>, name: "Tea/Coffee Maker in every room" },
+      { icon: <i className="fa fa-ice-cream text-primary me-2"></i>, name: "Mini Fridge in all Presidential Suites" },
+      { icon: <i className="fa fa-sofa text-primary me-2"></i>, name: "Comfortable furnishing and modern décor" },
+      { icon: <i className="fa fa-wind text-primary me-2"></i>, name: "Air Conditioning" },
+      { icon: <i className="fa fa-droplet text-primary me-2"></i>, name: "Complimentary drinking water (replenished daily)" },
+      { icon: <i className="fa fa-laptop text-primary me-2"></i>, name: "Work desk, wardrobe, and essential amenities" },
+      { icon: <i className="fa fa-bell text-primary me-2"></i>, name: "Room Service (7:00 AM to 11:00 PM)" },
     ]
   },
   {
     category: "Dining & Leisure",
-    icon: <i class="fa fa-utensils fa-2x text-primary"></i>,
+    icon: <i className="fa fa-utensils fa-2x text-primary"></i>,
     items: [
-      { icon: <i class="fa fa-utensils text-primary me-2"></i>, name: "Multi-Cuisine Restaurant offering regional, Indian & international dishes" },
-      { icon: <i class="fa fa-water text-primary me-2"></i>, name: "Swimming Pool for adults and families to relax and enjoy" },
-      { icon: <i class="fa fa-leaf text-primary me-2"></i>, name: "Landscaped Garden for peaceful outdoor sitting" },
-      { icon: <i class="fa fa-child text-primary me-2"></i>, name: "Kids Play Area for children to enjoy safely" },
+      { icon: <i className="fa fa-utensils text-primary me-2"></i>, name: "Multi-Cuisine Restaurant offering regional, Indian & international dishes" },
+      { icon: <i className="fa fa-water text-primary me-2"></i>, name: "Swimming Pool for adults and families to relax and enjoy" },
+      { icon: <i className="fa fa-leaf text-primary me-2"></i>, name: "Landscaped Garden for peaceful outdoor sitting" },
+      { icon: <i className="fa fa-child text-primary me-2"></i>, name: "Kids Play Area for children to enjoy safely" },
     ]
   },
   {
     category: "Events & Meetings",
-    icon: <i class="fa fa-calendar fa-2x text-primary"></i>,
+    icon: <i className="fa fa-calendar fa-2x text-primary"></i>,
     items: [
-      { icon: <i class="fa fa-champagne-glasses text-primary me-2"></i>, name: "Banquet Hall for dinners, gatherings & celebrations" },
-      { icon: <i class="fa fa-handshake text-primary me-2"></i>, name: "Board Room for small meetings & discussions" },
-      { icon: <i class="fa fa-person-booth text-primary me-2"></i>, name: "Special Arrangements for Conferences & Marriage Events" },
-      { icon: <i class="fa fa-theater-masks text-primary me-2"></i>, name: "Stage & décor support" },
-      { icon: <i class="fa fa-utensils text-primary me-2"></i>, name: "Catering & seating arrangements" },
-      { icon: <i class="fa fa-microphone text-primary me-2"></i>, name: "Modern audio-visual facilities" },
+      { icon: <i className="fa fa-champagne-glasses text-primary me-2"></i>, name: "Banquet Hall for dinners, gatherings & celebrations" },
+      { icon: <i className="fa fa-handshake text-primary me-2"></i>, name: "Board Room for small meetings & discussions" },
+      { icon: <i className="fa fa-person-booth text-primary me-2"></i>, name: "Special Arrangements for Conferences & Marriage Events" },
+      { icon: <i className="fa fa-theater-masks text-primary me-2"></i>, name: "Stage & décor support" },
+      { icon: <i className="fa fa-utensils text-primary me-2"></i>, name: "Catering & seating arrangements" },
+      { icon: <i className="fa fa-microphone text-primary me-2"></i>, name: "Modern audio-visual facilities" },
     ]
   },
   {
     category: "Outdoor Event Space",
-    icon: <i class="fa fa-tree fa-2x text-primary"></i>,
+    icon: <i className="fa fa-tree fa-2x text-primary"></i>,
     items: [
-      { icon: <i class="fa fa-ring text-primary me-2"></i>, name: "Large Open Lawn suitable for weddings, receptions & social events" },
-      { icon: <i class="fa fa-users text-primary me-2"></i>, name: "Capacity to host up to 1000 guests" },
+      { icon: <i className="fa fa-ring text-primary me-2"></i>, name: "Large Open Lawn suitable for weddings, receptions & social events" },
+      { icon: <i className="fa fa-users text-primary me-2"></i>, name: "Capacity to host up to 1000 guests" },
     ]
   },
   {
     category: "Guest Services",
-    icon: <i class="fa fa-concierge-bell fa-2x text-primary"></i>,
+    icon: <i className="fa fa-concierge-bell fa-2x text-primary"></i>,
     items: [
-      { icon: <i class="fa fa-shirt text-primary me-2"></i>, name: "In-house Laundry" },
-      { icon: <i class="fa fa-square-parking text-primary me-2"></i>, name: "Huge Parking Space for cars & buses" },
-      { icon: <i class="fa fa-person text-primary me-2"></i>, name: "Drivers' Accommodation (at extra cost)" },
-      { icon: <i class="fa fa-plane text-primary me-2"></i>, name: "Airport / Railway / Bus Pick-up & Drop (extra cost)" },
-      { icon: <i class="fa fa-binoculars text-primary me-2"></i>, name: "Sightseeing Tours on Request (extra cost)" },
-      { icon: <i class="fa fa-compass text-primary me-2"></i>, name: "Travel guidance & support" },
+      { icon: <i className="fa fa-shirt text-primary me-2"></i>, name: "In-house Laundry" },
+      { icon: <i className="fa fa-square-parking text-primary me-2"></i>, name: "Huge Parking Space for cars & buses" },
+      { icon: <i className="fa fa-person text-primary me-2"></i>, name: "Drivers' Accommodation (at extra cost)" },
+      { icon: <i className="fa fa-plane text-primary me-2"></i>, name: "Airport / Railway / Bus Pick-up & Drop (extra cost)" },
+      { icon: <i className="fa fa-binoculars text-primary me-2"></i>, name: "Sightseeing Tours on Request (extra cost)" },
+      { icon: <i className="fa fa-compass text-primary me-2"></i>, name: "Travel guidance & support" },
     ]
   },
 ];
